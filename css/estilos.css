@@ -1,0 +1,102 @@
+*{
+  margin: 0; /*quitar margen*/
+  padding: 0;/*quiter reeno*/
+}
+body{
+  background: #dddddd; /*Color relleno en gris*/
+}
+#diseno{
+  width: 950px;
+  margin: auto; /*centra el contenido*/
+}
+header{ /*Define el alto y ancho del header*/
+  width: 950px;
+  height: 100px;
+  background: #003448; /*Relleno del header*/
+}
+header h1{ /*Define el diseño de la fuente que se encuentra en el header h1*/
+  text-align: center;
+  color: white;
+  line-height: 100px; /*centar el Texto del header*/
+  /*font-family: carga la fuente que deseamos configurar*/
+  /*font-size: 64px*/
+  /*text-shadow: define efectos en el texto */
+}
+nav{
+  text-align: center;
+  background: #ed9346;
+  margin-top: 15px;
+}
+nav ul li{
+  display: inline-block; /*Permite centar el menu de navegacion*/
+  padding:10px;/*Permite realizar separaciones entre los textos del menu*/
+}
+nav ul li a{
+  text-decoration: none;/*Quita los subrayados*/
+  font-family: verdana;
+  font-style: 20px;/*Permite un tamaño de fuente */
+  color: blue;
+  text-shadow: 2px 2px 4px #00000;
+}
+nav ul li a{ /*Construccion de la Pseudoclase para permitir sombras*/
+  color:black;
+}
+section{
+  width: 750px;
+  height: 1690px;
+  margin-top: 15px; /*Permite hacer separacion entre e nav y el selection parte superior*/
+  background: white;
+  float: left;/*Realiza posicionamiento del area del Selection*/
+  box-shadow: 0px 10px #000000;/*Tener en cuneta la sombra del borde 0px es vertical 10px horizontal*/
+}
+table{
+  /*border: 1px solid #000;*/
+  border-collapse: separate;
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+  /*border-collapse: separate;*/
+  border-spacing: 20px 20px;/*Permite separacion de bordes ente tablas*/
+}
+table tr th{
+  border: 0px solid #000;
+  background: #eceff4;
+}
+table tr td{
+  border: 0px solid #000;
+  text-align: center;
+  vertical-align: text-top;/*Permite justificar texto parte superior*/
+  font-family: verdana;
+}
+/*table tr td:nth-of-type(2){
+  font-family: comic;
+}*/
+
+aside{
+  width: 185px;
+  height: 1610px;
+  margin-top: 15px;
+  margin-bottom: 15px;/*Permite la separacion inferior entre aside*/
+  background: white;
+  float: left;/*Realiza posicionamiento del area del Selection*/
+  margin-left: 5px;/* Permite separar en la parte izquierda*/
+  box-shadow: 0px 10px #000000;/*Tener en cuneta la sombra del borde 0px es vertical 10px horizontal*/
+  overflow: scroll;/*Creacion Barra ScrollBack*/
+}
+aside:nth-of-type(1){/*Pseudoclase permite ajustar el primer aside */
+  height: 50px;
+  background: #dddddd;
+  overflow: hidden;
+}
+/*aside::nth-of-type(2){
+  overflow: scroll;
+}*/
+footer{
+  clear: both; /*Permite llevar el footer a la parte inferior*/
+  width: 950px;
+  height: 50px;
+  background-color: #003848;
+  text-align:center;
+  color: white;
+  line-height: 50px;/*Permite centrar */
+}
