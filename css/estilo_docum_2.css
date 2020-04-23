@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #dddddd;
+}
+
+header{
+  width: 950px;
+  height: 100px;
+  background: #003448;
+}
+section{
+  width: 950px;
+  height: auto;
+}
