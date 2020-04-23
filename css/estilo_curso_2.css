@@ -68,6 +68,11 @@ section{
   float: left;
   margin-bottom: 15px;
 }
+
+section div article{
+  color: blue;
+
+}
 /*aside{
   width: 185px;
   height: 200px;
