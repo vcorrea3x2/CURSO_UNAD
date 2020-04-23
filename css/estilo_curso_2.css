@@ -81,5 +81,11 @@ footer{
   height: 50px;
   /*background: yellow;*/
   background-color: #003848;
+  text-align: center;
+  color: white;
+  line-height: 50px;
   margin-top: 30;
+}
+.sectiondocu_c2{
+  display: inline-block;
 }
