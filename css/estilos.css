@@ -34,9 +34,9 @@ nav ul li{
 nav ul li a{
   text-decoration: none;/*Quita los subrayados*/
   font-family: verdana;
-  font-style: 20px;/*Permite un tamaño de fuente */
+  /*font-style: 20px;/*Permite un tamaño de fuente */
   color: blue;
-  text-shadow: 2px 2px 4px #00000;
+  text-shadow: 2px 2px 4px white;
 }
 nav ul li a{ /*Construccion de la Pseudoclase para permitir sombras*/
   color:black;
